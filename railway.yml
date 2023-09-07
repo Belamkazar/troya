@@ -1,0 +1,5 @@
+version: 2
+routes:
+  - src: /.*
+    dest: /usr/src/app
+    script: npm start
